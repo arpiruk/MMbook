@@ -1,0 +1,18 @@
+7
+4262
+0.8
+1
+40.0
+erf
+rk9
+central14
+
+!   open(newunit=iu, file=fname, status='old', action='read')
+!   read(iu,*) ng       #Number of GhostCell
+!   read(iu,*) ncell	#Number of Cell allocating for the run
+!   read(iu,*) cfl	#Target CFL number (time-step size scales with this)
+!   read(iu,*) u	#Nominal Velocity
+!   read(iu,*) t_final  #Final Time
+!   read(iu,'(A)') scase	# Simulation case
+!   read(iu,'(A)') method       # Time integration method:  euler rk4 rk5 rk7
+!   read(iu,'(A)') scheme       # Numerical Scheme
